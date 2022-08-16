@@ -34,7 +34,6 @@ public class XRayTracingFilter {
             .withSegmentListener(new MetricsSegmentListener())
             .withSegmentListener(new Log4JSegmentListener(appName));
 
-
     AWSXRay.setGlobalRecorder(builder.build());
 
     return new AWSXRayServletFilter(appName);
