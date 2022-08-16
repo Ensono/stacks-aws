@@ -1,6 +1,5 @@
 package com.amido.stacks.aws.tracing;
 
-
 import com.amazonaws.xray.spring.aop.BaseAbstractXRayInterceptor;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
