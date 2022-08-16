@@ -7,7 +7,7 @@
   <parent>
     <groupId>com.amido.stacks.modules</groupId>
     <artifactId>stacks-modules-parent</artifactId>
-    <version>sdj-11-august-2022</version>
+    <version>2.0.2-RELEASE</version>
   </parent>
 
   <artifactId>stacks-aws</artifactId>
