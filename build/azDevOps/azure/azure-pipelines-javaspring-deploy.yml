@@ -33,7 +33,7 @@ resources:
   containers:
     # Container for Java Build and Testing
     - container: azul_java
-      image: amidostacks/runner-pwsh-java:0.4.33-stable
+      image: amidostacks/runner-pwsh-java:0.4.31-unstable
     # Container for inlining Jacoco assets as Azure DevOps strips them
     # https://github.com/microsoft/azure-pipelines-tasks/issues/3027
     - container: node
