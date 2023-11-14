@@ -2,12 +2,12 @@ package com.amido.stacks.aws.tracing;
 
 import com.amazonaws.xray.AWSXRay;
 import com.amazonaws.xray.AWSXRayRecorderBuilder;
-import com.amazonaws.xray.javax.servlet.AWSXRayServletFilter;
+import com.amazonaws.xray.jakarta.servlet.AWSXRayServletFilter;
 import com.amazonaws.xray.log4j.Log4JSegmentListener;
 import com.amazonaws.xray.metrics.MetricsSegmentListener;
 import com.amazonaws.xray.plugins.EC2Plugin;
 import com.amazonaws.xray.plugins.EKSPlugin;
-import javax.servlet.Filter;
+import jakarta.servlet.Filter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
